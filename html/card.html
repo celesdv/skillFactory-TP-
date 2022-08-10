@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Characters</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <h3><a class="navbar-brand text-light ms-5" href="../index.html">Rick and Morty</a></h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./table.html">Users</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Characters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./form.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand me-5" href="#">
+                    <img src="../assets/images/58f37731a4fa116215a92411.png"
+                        class="d-inline-block align-text-top img-nav rounded-circle shadow bg">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="p-2">
+        <h3 class="text-center">Rick and Morty Characters!</h3>
+        <div class="mt-3">
+            <ul id="pagination" class="pagination justify-content-center"></ul>
+        </div>
+        <div id="fetch-characters" class="row row-cols-md-5 ps-5 pe-5"></div>
+    </section>
+
+    <footer class="bg-dark p-4">
+        <p class="text-light text-center">&copy; 2022 - <span>All rights reserved</span></p>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- Scripts -->
+    <script src="../assets/js/scriptCards.js"></script>
+</body>
+
+</html>

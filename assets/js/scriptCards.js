@@ -15,7 +15,7 @@ const printData = (data) => {
   data.results.forEach(c => {
     body += `
         <div class="col">
-            <div class="card text-center m-3">            
+            <div class="card text-center m-1">            
                 <img src="${c.image}" alt="${c.name}" class="card-img-top">
                 <h5 class="card-header text-bg-dark">${c.name}</h5>
                 <div class="card-body">
